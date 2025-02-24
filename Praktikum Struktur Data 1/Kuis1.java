@@ -1,4 +1,4 @@
-public class latihanEci11 {
+public class Kuis1 {
     public static void main(String[] args) {
         // deklrasi dan inisialisasi
         int[] number = new int[5];
@@ -58,11 +58,23 @@ public class latihanEci11 {
         //     }     
         // }
 
-        
         //soal 6
-        System.out.println();
-        System.out.print(number[0] + "," + number[0] + ","); 
-        System.out.print(number[2] + "," + number[1] + "," + number[4]);
-
+        for (int i = 0; i < number.length; i++) {
+            number[i] = i + 1;
+        }
+        for (int i = 0; i < number.length; i++) {
+            if (i == 1) {
+                number[i] = 1; 
+            } else if (i == 3) {
+                number[i] = 2; 
+            }
+        }
+        for (int i = 0; i < number.length; i++) {
+            if (i == number.length - 1) {
+                System.out.print(number[i]);
+            } else {
+                System.out.print(number[i] + ", ");
+            }
+        }
     }
 }
