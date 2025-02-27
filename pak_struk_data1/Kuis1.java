@@ -8,7 +8,7 @@ public class Kuis1 {
         number[2]=3;
         number[3]=4;
         number[4]=5;
-
+tessssssssss
         //Menggunakan for loop
         //for (int i = 0; i < number.length; i++) {
         //  System.out.print(number[i]);
